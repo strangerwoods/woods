@@ -12,7 +12,6 @@ const Post = () => {
 	return (
 		<article>
 			<h1 className='text-2xl font-bold mb-2'>{post.title}</h1>
-			<div className='text-sm text-gray-400 mb-4'>{`${post.year}-${post.month}-${post.day}`}</div>
 			<div className='prose prose-invert'>
 				<ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
 			</div>
