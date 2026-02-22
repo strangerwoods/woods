@@ -8,13 +8,15 @@ const posts = Object.entries(modules)
     const [, year, month, day] = m;
     const titleMatch = content.match(/^#\s+(.*)/m);
     const title = titleMatch ? titleMatch[1].trim() : `${year}-${month}-${day}`;
+    // remove the first H1 heading from content so Post doesn't duplicate the title
+    const contentWithoutTitle = content.replace(/^#\s+.*(?:\r?\n)+/, '');
     return {
       id: `${year}-${month}-${day}`,
       year,
       month,
       day,
       title,
-      content,
+      content: contentWithoutTitle,
     };
   })
   .filter(Boolean)
