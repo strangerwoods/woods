@@ -5,8 +5,8 @@ import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 
 const Post = () => {
-	const { year, month, day } = useParams();
-	const post = getPost(year, month, day);
+	const { year, month, id } = useParams();
+	const post = getPost(year, month, id);
 
 	if (!post) return <div>Post not found.</div>;
 

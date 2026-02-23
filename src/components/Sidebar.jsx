@@ -41,7 +41,7 @@ const Sidebar = ({ open = false, onClose = () => {} }) => {
 							<li key={post.id} className="mb-1">
 								<Link
 									onClick={onClose}
-									to={`/posts/${post.year}/${post.month}/${post.day}`}
+									to={`/posts/${post.year}/${post.month}/${post.id}`}
 									className="text-white hover:underline"
 								>
 									{post.title}

@@ -9,7 +9,7 @@ function App() {
 		<Routes>
 			<Route path="/" element={<Layout />}>
 				<Route index element={<Home />} />
-				<Route path="posts/:year/:month/:day" element={<Post />} />
+				<Route path="posts/:year/:month/:id" element={<Post />} />
 			</Route>
 		</Routes>
 	);
