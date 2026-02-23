@@ -1,16 +1,20 @@
-import { useState } from 'react';
+import { useState } from "react";
 import Sidebar from "../Sidebar";
 import { Outlet } from "react-router-dom";
 
 const Layout = () => {
 	const [open, setOpen] = useState(false);
-	const toggle = () => setOpen(v => !v);
+	const toggle = () => setOpen((v) => !v);
 	const close = () => setOpen(false);
 
 	return (
 		<div className="bg-black min-h-screen text-white">
 			<div className="md:hidden p-2">
-				<button onClick={toggle} aria-expanded={open} className="px-3 py-2 bg-gray-800 rounded">
+				<button
+					onClick={toggle}
+					aria-expanded={open}
+					className="px-3 py-2 bg-gray-800 rounded"
+				>
 					☰
 				</button>
 			</div>

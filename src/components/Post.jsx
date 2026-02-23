@@ -1,8 +1,8 @@
-import { useParams } from 'react-router-dom';
-import { getPost } from '../lib/posts';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
-import rehypeRaw from 'rehype-raw';
+import { useParams } from "react-router-dom";
+import { getPost } from "../lib/posts";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
 
 const Post = () => {
 	const { year, month, day } = useParams();
@@ -12,9 +12,11 @@ const Post = () => {
 
 	return (
 		<article>
-			<h1 className='text-2xl font-bold mb-2'>{post.title}</h1>
-			<div className='prose prose-invert'>
-				<ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{post.content}</ReactMarkdown>
+			<h1 className="text-2xl font-bold mb-2">{post.title}</h1>
+			<div className="prose prose-invert">
+				<ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+					{post.content}
+				</ReactMarkdown>
 			</div>
 		</article>
 	);
