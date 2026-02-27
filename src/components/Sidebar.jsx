@@ -16,7 +16,7 @@ const Sidebar = ({ open = false, onClose = () => { } }) => {
 
 	return (
 		<aside
-			className={`fixed inset-y-0 left-0 w-80 transform transition-transform duration-200 z-50 md:static md:translate-x-0 ${mobileClasses} bg-black p-8 border-r border-gray-800`}
+			className={`fixed inset-y-0 left-0 w-80 transform transition-transform duration-200 z-50 md:static md:translate-x-0 ${mobileClasses} p-8 `}
 		>
 			<div className="md:hidden mb-4 flex justify-between items-center">
 				<h2 className="text-xl font-bold">Dates</h2>

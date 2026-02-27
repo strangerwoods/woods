@@ -8,7 +8,7 @@ const Layout = () => {
 	const close = () => setOpen(false);
 
 	return (
-		<div className="bg-black min-h-screen text-white">
+		<div className="bg-neutral-950 min-h-screen text-stone-50">
 			<div className="md:hidden p-2">
 				<button
 					onClick={toggle}
