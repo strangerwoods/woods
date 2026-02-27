@@ -167,7 +167,7 @@ long enough and you've been rewarded with a few hours of silence and peace.
 
 &nbsp;
 
-The cycle will begin again ventually and you stop to think if it's worth it in the first place, do these people
+The cycle will begin again eventually and you stop to think if it's worth it in the first place, do these people
 matter enough to put in the effort to present yourself as a sane individual, as one who has any interest in what's
 going on around them or in the lives of those nearby, do you ever truly feel like yourself when faced with another
 moving slab of meat? I wonder if this room would be better if everyone was in the brink of dying, or their lives 
