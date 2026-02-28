@@ -13,7 +13,7 @@ const Layout = () => {
 				<button
 					onClick={toggle}
 					aria-expanded={open}
-					className="px-3 py-2 bg-gray-800 rounded"
+					className="px-3 py-2 rounded border"
 				>
 					☰
 				</button>

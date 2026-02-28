@@ -16,14 +16,14 @@ const Sidebar = ({ open = false, onClose = () => { } }) => {
 
 	return (
 		<aside
-			className={`fixed inset-y-0 left-0 w-80 transform transition-transform duration-200 z-50 md:static md:translate-x-0 ${mobileClasses} p-8 `}
+			className={`fixed inset-y-0 left-0 w-80 transform transition-transform duration-200 z-50 md:static md:translate-x-0 ${mobileClasses} p-8 bg-neutral-950`}
 		>
 			<div className="md:hidden mb-4 flex justify-between items-center">
 				<h2 className="text-xl font-bold">Dates</h2>
 				<button
 					onClick={onClose}
 					aria-label="Close sidebar"
-					className="px-2 py-1 bg-gray-800 rounded"
+					className="px-2 py-1 rounded-md border"
 				>
 					✕
 				</button>
