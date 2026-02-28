@@ -208,7 +208,7 @@ I was supposed to be the **wonder child**, the one to make a difference in my fa
 gonna get a cushy job out of a family of immigrants and manual labourers. Sadly not all things go the
 way they're supposed to, burnout, pain, mental struggle all of these killed all the dreams that people 
 had for me, I was meant to be the smart one the one was good at computers and knew how to get his way
-but at the thend of the day I flunked out, life simply wasn't meant to be for me. I spent years agonizing
+but at the end of the day I flunked out, life simply wasn't meant to be for me. I spent years agonizing
 because of other people's expectations for me, and I regret it oh so deeply, I should've just done my own 
 thing from the start instead of being a foolish child who didn't know better.
 
@@ -225,7 +225,7 @@ I love the infinity of space and I wish I was there to explore more of it, but a
 time and in the wrong place, the lazy ones, the **hikkikomori**, I might be one myself but I take no shame in 
 it, the calm and peaceful living might not be so bad after all I just wish I didn't have so many expectations 
 to meet, get a job get a wife have some kids meet people pretend that you connect with them, the best moments 
-of my life were when I was drooling during a massive acid rip laying on my bed becoming one with everything or
+of my life were when I was drooling during a massive acid trip laying on my bed becoming one with everything or
 when I first overdosed and ended up in the psych ward (when I was passed out not when I woke up), I miss it, I
 truly and honestly miss it, being dead n passed out, floating among the stars in the nothingness of the void.
 
