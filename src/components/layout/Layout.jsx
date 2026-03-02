@@ -10,11 +10,7 @@ const Layout = () => {
 	return (
 		<div className="bg-neutral-950 min-h-screen text-stone-50">
 			<div className="md:hidden p-2">
-				<button
-					onClick={toggle}
-					aria-expanded={open}
-					className="px-3 py-2 rounded border"
-				>
+				<button onClick={toggle} aria-expanded={open} className="px-3 py-2 rounded border">
 					☰
 				</button>
 			</div>

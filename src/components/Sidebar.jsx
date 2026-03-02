@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { listPosts } from "../lib/posts";
 
-const Sidebar = ({ open = false, onClose = () => { } }) => {
+const Sidebar = ({ open = false, onClose = () => {} }) => {
 	const posts = listPosts();
 	const grouped = posts.reduce((acc, p) => {
 		const month = `${p.year}-${p.month}`; // YYYY-MM
@@ -44,9 +44,10 @@ const Sidebar = ({ open = false, onClose = () => { } }) => {
 									end
 									to={`/posts/${post.year}/${post.month}/${post.id}`}
 									className={({ isActive }) =>
-										`w-full block px-1 py-0.5 transition-colors duration-150 hover:underline ${isActive
-											? "bg-white text-black"
-											: "text-white hover:bg-white hover:text-black"
+										`w-full block px-1 py-0.5 transition-colors duration-150 hover:underline ${
+											isActive
+												? "bg-white text-black"
+												: "text-white hover:bg-white hover:text-black"
 										}`
 									}
 								>
