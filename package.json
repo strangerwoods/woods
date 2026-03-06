@@ -13,6 +13,7 @@
 		"prettier": "npx prettier . --write"
 	},
 	"dependencies": {
+		"@tailwindcss/typography": "^0.5.19",
 		"@tailwindcss/vite": "^4.2.0",
 		"react": "^19.2.0",
 		"react-dom": "^19.2.0",

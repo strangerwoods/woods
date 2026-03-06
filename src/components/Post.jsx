@@ -13,7 +13,7 @@ const Post = () => {
 	return (
 		<article>
 			<h1 className="text-2xl font-bold mb-2">{post.title}</h1>
-			<div className="prose prose-invert">
+			<div className="prose prose-invert max-w-6xl">
 				<ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
 					{post.content}
 				</ReactMarkdown>

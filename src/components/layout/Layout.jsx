@@ -19,7 +19,7 @@ const Layout = () => {
 
 			<div className="flex">
 				<Sidebar open={open} onClose={close} />
-				<main className="p-6 w-full">
+				<main className="p-8 w-full">
 					<Outlet />
 				</main>
 			</div>
