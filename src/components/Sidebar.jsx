@@ -16,7 +16,7 @@ const Sidebar = ({ open = false, onClose = () => {} }) => {
 
 	return (
 		<aside
-			className={`fixed inset-y-0 left-0 w-80 transform transition-transform duration-200 z-50 md:static md:translate-x-0 ${mobileClasses} p-8 bg-neutral-950 overflow-y-auto`}
+			className={`fixed inset-y-0 left-0 w-100 transform transition-transform duration-200 z-50 md:static md:translate-x-0 ${mobileClasses} p-8 bg-neutral-950 overflow-y-auto scrollbar-hide`}
 		>
 			<div className="md:hidden mb-4 flex justify-between items-center">
 				<h2 className="text-xl font-bold">Dates</h2>
@@ -51,7 +51,10 @@ const Sidebar = ({ open = false, onClose = () => {} }) => {
 										}`
 									}
 								>
-									{post.title}
+									<span className="text-lg">{post.title}</span>
+									<span className="text-xs  text-gray-400 ml-2">
+										{post.year}-{post.month}-{post.day}
+									</span>
 								</NavLink>
 							</li>
 						))}
